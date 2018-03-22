@@ -23,5 +23,5 @@ LinkList SingleListTailCreate();
 LNode *GetElem(LinkList L, int i);
 LNode *LocateElem(LinkList L, ElemType e);
 LinkList InsertElemAt(LinkList L, LNode *newElem, int insertPos);
-LinkList DeleteElem(LinkList L, int deletePos);
+LinkList DeleteElemAt(LinkList L, int deletePos);
 void PrintList(LinkList L);

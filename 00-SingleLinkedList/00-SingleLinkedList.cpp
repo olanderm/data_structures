@@ -164,8 +164,7 @@ LinkList InsertElemAt(LinkList L, LNode *newElem, int insertPos)
 
 ///deletePos必须大于0
 LinkList DeleteElemAt(LinkList L, int deletePos)
-{	 
-	
+{	 	
 	LNode * pre = GetElem(L, deletePos-1);//找到前驱
 	LNode *deleted = pre->next;
 	LNode *post = deleted->next;//后继节点
